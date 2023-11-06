@@ -36,7 +36,7 @@ Usage: Useful for iterative model improvements and understanding user preference
 Metrics: Accuracy, F1 score, or exact match for questions where the model must provide specific answers.
 ### Text Generation
 Metrics: BLEU, ROUGE, and METEOR scores, as well as human evaluations for creativity, coherency, and context relevance.
-Classification Tasks
+### Classification Tasks
 Metrics: Precision, recall, F1 score, and accuracy for tasks like sentiment analysis or topic classification.
 ## 4. Fairness and Bias Evaluation
 ### Inclusivity Metrics
