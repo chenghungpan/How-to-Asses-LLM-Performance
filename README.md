@@ -4,22 +4,23 @@ Measuring the performance of a large language model (LLM) like GPT-4 involves va
 
 ## 1. Quantitative Metrics
 ### Perplexity
-Definition: A measurement of how well a probability model predicts a sample. Lower perplexity indicates a better model.
+Definition: A measurement of how well a probability model predicts a sample. Lower perplexity indicates a better model. <br>
 Usage: Often used for language models to evaluate their language understanding.
 ### Accuracy
-Definition: The number of correct predictions made divided by the total number of predictions.
+Definition: The number of correct predictions made divided by the total number of predictions.<br>
 Usage: Used in tasks with clear right or wrong answers, like classification.
 ### BLEU Score (Bilingual Evaluation Understudy)
-Definition: Measures how many words and phrases in the model's output match a reference translation. It's widely used in machine translation.
-Usage: Evaluates the quality of text that has been machine-translated from one language to another.
+Definition: Measures how many words and phrases in the model's output match a reference translation. It's widely used in machine translation.<br>
+Usage: Evaluates the quality of text that has been machine-translated from one language to another.<br>
 ### ROUGE Score (Recall-Oriented Understudy for Gisting Evaluation)
-Definition: Focuses on recall rather than precision, assessing the number of overlapping units such as n-grams, word sequences, and word pairs between the computer-generated output and reference texts.
-Usage: Commonly used for summarization tasks.
+Definition: Focuses on recall rather than precision, assessing the number of overlapping units such as n-grams, word sequences, and word pairs between the computer-generated output and reference texts.<br>
+Usage: Commonly used for summarization tasks.<br>
 ### F1 Score
-Definition: The harmonic mean of precision and recall. It is a more robust measure than accuracy alone, particularly for imbalanced datasets.
-Usage: Useful for tasks with uneven class distributions, like entity recognition.
+Definition: The harmonic mean of precision and recall. It is a more robust measure than accuracy alone, particularly for imbalanced datasets.<br>
+Usage: Useful for tasks with uneven class distributions, like entity recognition.<br>
 ### METEOR Score (Metric for Evaluation of Translation with Explicit Ordering)
-Definition: Considers exact word matches, stem matches, synonymy, and paraphrase; aligns words between the translated and reference text using a combination of unigram ### precision and recall.
+Definition: Considers exact word matches, stem matches, synonymy, and paraphrase; aligns words between the translated and reference text using a combination of unigram <br>
+### precision and recall.
 Usage: More advanced than BLEU for evaluating machine translation, but also used for paraphrase detection.
 <br>
 ## 2. Qualitative Assessments
@@ -58,7 +59,7 @@ Usage: Impacts the model's memory footprint and computational requirements.
 ### Adversarial Attacks
 Definition: Intentionally feeding the model inputs designed to trick it or cause incorrect outputs.
 Usage: Tests the model's resilience to malicious inputs or edge cases.
-Stress Testing
+### Stress Testing
 Definition: Assessing how the model performs under extreme conditions, like long inputs or unexpected character types.
 Usage: Ensures stability and reliability of the model.
 ## 7. Real-world Performance
@@ -68,4 +69,3 @@ Usage: Direct feedback from users, which is essential for commercial application
 ### Engagement Metrics
 Definition: Indicators of user engagement, such as the number of return users, session duration, etc.
 Usage: Useful for products that integrate the model to serve end-users.
-In practice, a combination of these metrics is often used, since no single metric can fully capture the capabilities of a complex model like GPT-4. It's also important to note that the benchmarks and evaluation methods
