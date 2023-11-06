@@ -19,8 +19,7 @@ Usage: Commonly used for summarization tasks.<br>
 Definition: The harmonic mean of precision and recall. It is a more robust measure than accuracy alone, particularly for imbalanced datasets.<br>
 Usage: Useful for tasks with uneven class distributions, like entity recognition.<br>
 ### METEOR Score (Metric for Evaluation of Translation with Explicit Ordering)
-Definition: Considers exact word matches, stem matches, synonymy, and paraphrase; aligns words between the translated and reference text using a combination of unigram <br>
-### precision and recall.
+Definition: Considers exact word matches, stem matches, synonymy, and paraphrase; aligns words between the translated and reference text using a combination of unigram precision and recall. <br>
 Usage: More advanced than BLEU for evaluating machine translation, but also used for paraphrase detection.
 <br>
 ## 2. Qualitative Assessments
