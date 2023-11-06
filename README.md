@@ -62,9 +62,9 @@ Usage: Tests the model's resilience to malicious inputs or edge cases.
 Definition: Assessing how the model performs under extreme conditions, like long inputs or unexpected character types.
 Usage: Ensures stability and reliability of the model.
 ## 7. Real-world Performance
-User Satisfaction
-Definition: How well users feel the model meets their needs and expectations.
+### User Satisfaction
+Definition: How well users feel the model meets their needs and expectations. <br>
 Usage: Direct feedback from users, which is essential for commercial applications.
 ### Engagement Metrics
-Definition: Indicators of user engagement, such as the number of return users, session duration, etc.
+Definition: Indicators of user engagement, such as the number of return users, session duration, etc. <br>
 Usage: Useful for products that integrate the model to serve end-users.
