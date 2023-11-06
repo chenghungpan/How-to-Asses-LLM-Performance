@@ -31,31 +31,31 @@ Definition: Comparing two versions of the model or its outputs to see which one 
 Usage: Useful for iterative model improvements and understanding user preferences.
 <br>
 ## 3. Task-Specific Benchmarks
-###Question Answering
+### Question Answering
 Metrics: Accuracy, F1 score, or exact match for questions where the model must provide specific answers.
-Text Generation
+### Text Generation
 Metrics: BLEU, ROUGE, and METEOR scores, as well as human evaluations for creativity, coherency, and context relevance.
 Classification Tasks
 Metrics: Precision, recall, F1 score, and accuracy for tasks like sentiment analysis or topic classification.
 ## 4. Fairness and Bias Evaluation
-Inclusivity Metrics
+### Inclusivity Metrics
 Definition: Evaluates whether a model's performance is equitable across different demographics or respects ethical guidelines.
 Usage: To ensure that the model does not perpetuate or amplify biases.
-Bias Probing
+### Bias Probing
 Definition: Tasks specifically designed to reveal biases in the model, such as gender, racial, or cultural biases.
 Usage: To understand and mitigate unintended biases in model outputs.
 ## 5. Efficiency and Computational Metrics
-Inference Time
+### Inference Time
 Definition: The time it takes for the model to generate output after receiving an input.
 Usage: Important for real-time applications.
-Throughput
+### Throughput
 Definition: The number of tasks the model can handle per unit time.
 Usage: A key metric for scalability.
-Model Size
+### Model Size
 Definition: The number of parameters in the model.
 Usage: Impacts the model's memory footprint and computational requirements.
 ## 6. Robustness and Adversarial Testing
-Adversarial Attacks
+### Adversarial Attacks
 Definition: Intentionally feeding the model inputs designed to trick it or cause incorrect outputs.
 Usage: Tests the model's resilience to malicious inputs or edge cases.
 Stress Testing
@@ -65,7 +65,7 @@ Usage: Ensures stability and reliability of the model.
 User Satisfaction
 Definition: How well users feel the model meets their needs and expectations.
 Usage: Direct feedback from users, which is essential for commercial applications.
-Engagement Metrics
+### Engagement Metrics
 Definition: Indicators of user engagement, such as the number of return users, session duration, etc.
 Usage: Useful for products that integrate the model to serve end-users.
 In practice, a combination of these metrics is often used, since no single metric can fully capture the capabilities of a complex model like GPT-4. It's also important to note that the benchmarks and evaluation methods
