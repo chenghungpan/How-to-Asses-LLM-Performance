@@ -29,7 +29,7 @@ Definition: Involves human judges rating the output on factors like fluency, coh
 Usage: Provides insights into how well the model performs from a human perspective, particularly for generative tasks.
 ### A/B Testing
 Definition: Comparing two versions of the model or its outputs to see which one performs better according to human judges or user engagement metrics.
-Usage: Useful for iterative model improvements and understanding user preferences.
+<br>Usage: Useful for iterative model improvements and understanding user preferences.
 <br>
 ## 3. Task-Specific Benchmarks
 ### Question Answering
