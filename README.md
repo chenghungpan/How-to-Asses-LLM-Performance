@@ -25,8 +25,8 @@ Usage: More advanced than BLEU for evaluating machine translation, but also used
 <br>
 ## 2. Qualitative Assessments
 ### Human Evaluation
-Definition: Involves human judges rating the output on factors like fluency, coherence, relevance, and factuality.
-Usage: Provides insights into how well the model performs from a human perspective, particularly for generative tasks.
+Definition: Involves human judges rating the output on factors like fluency, coherence, relevance, and factuality. 
+<br>Usage: Provides insights into how well the model performs from a human perspective, particularly for generative tasks.
 ### A/B Testing
 Definition: Comparing two versions of the model or its outputs to see which one performs better according to human judges or user engagement metrics.
 <br>Usage: Useful for iterative model improvements and understanding user preferences.
@@ -41,31 +41,31 @@ Metrics: Precision, recall, F1 score, and accuracy for tasks like sentiment anal
 ## 4. Fairness and Bias Evaluation
 ### Inclusivity Metrics
 Definition: Evaluates whether a model's performance is equitable across different demographics or respects ethical guidelines.
-Usage: To ensure that the model does not perpetuate or amplify biases.
+<br>Usage: To ensure that the model does not perpetuate or amplify biases.
 ### Bias Probing
 Definition: Tasks specifically designed to reveal biases in the model, such as gender, racial, or cultural biases.
-Usage: To understand and mitigate unintended biases in model outputs.
+<br>Usage: To understand and mitigate unintended biases in model outputs.
 ## 5. Efficiency and Computational Metrics
 ### Inference Time
 Definition: The time it takes for the model to generate output after receiving an input.
-Usage: Important for real-time applications.
+<br>Usage: Important for real-time applications.
 ### Throughput
 Definition: The number of tasks the model can handle per unit time.
-Usage: A key metric for scalability.
+<br>Usage: A key metric for scalability.
 ### Model Size
 Definition: The number of parameters in the model.
-Usage: Impacts the model's memory footprint and computational requirements.
+<br>Usage: Impacts the model's memory footprint and computational requirements.
 ## 6. Robustness and Adversarial Testing
 ### Adversarial Attacks
 Definition: Intentionally feeding the model inputs designed to trick it or cause incorrect outputs.
-Usage: Tests the model's resilience to malicious inputs or edge cases.
+<br>Usage: Tests the model's resilience to malicious inputs or edge cases.
 ### Stress Testing
 Definition: Assessing how the model performs under extreme conditions, like long inputs or unexpected character types.
-Usage: Ensures stability and reliability of the model.
+<br>Usage: Ensures stability and reliability of the model.
 ## 7. Real-world Performance
 ### User Satisfaction
 Definition: How well users feel the model meets their needs and expectations. <br>
-Usage: Direct feedback from users, which is essential for commercial applications.
+<br>Usage: Direct feedback from users, which is essential for commercial applications.
 ### Engagement Metrics
 Definition: Indicators of user engagement, such as the number of return users, session duration, etc. <br>
-Usage: Useful for products that integrate the model to serve end-users.
+<br>Usage: Useful for products that integrate the model to serve end-users.
